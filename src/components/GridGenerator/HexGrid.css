@@ -1,0 +1,17 @@
+.grid-image {
+  width: fit-content;
+}
+
+@media (max-width: 800px) {
+  .grid-image {
+    width: 80%;
+  }
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  div {
+    margin: 5px;
+  }
+}
